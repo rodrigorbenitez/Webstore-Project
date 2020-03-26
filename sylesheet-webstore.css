@@ -1,0 +1,66 @@
+#barrasearch{display: flex;
+    align-items: center;}
+div.card{margin-top: 30px;}
+div.card ul{padding-left: 20px;
+padding-right: 5px;}
+div.card img{
+margin: 10px auto;}
+.card-body{margin: 0px;
+padding: 0px;
+border: 0px;}
+#primerafilaimagenes{margin-top: 50px;}
+.card{height: 380px;}
+.container-imagen{height: 200px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;}
+.container-imagen img{width: 50%;}
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 991px) {
+        ul {
+            line-height:1.1;
+        }
+      }
+footer{height: 50px;
+margin-top: 20px;
+display: flex;
+   justify-content: center;
+   align-items: center;
+background-color: black;
+color: lightblue;}
+form {margin: 0 auto;
+padding: 10px;}
+#headerlandingpage{background-color: rgb(236, 231, 231);}
+#cuerpolanding{background-image: url(https://images.pexels.com/photos/35550/ipad-tablet-technology-touch.jpg?cs=srgb&dl=laptop-technology-ipad-tablet-35550.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+} 
+#footerlanding1{background-color: lightseagreen;
+height: 100%;
+display: flex;
+   justify-content: center;
+   align-items: center;}
+#footerlanding1 img{max-height: 50px;
+margin: 5px auto;}
+#footerlanding2{background-color: rgb(236, 231, 231);
+max-height: 100%;
+padding-top: 20px;
+padding-bottom: 20px;}
+.centrar{float: right;
+}
+div.centrar i{color: black;}
+#footerlanding2 div.col-md-1{margin-top: 20px}
+.centrardiv{display: flex;
+    justify-content: center;
+    align-items: center;}
+    a:link, a:visited, a:hover {
+        text-decoration: none;
+        color: black;
+      }
+#stripe{background: white;
+height: 30px;
+text-align: center;}
